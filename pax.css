@@ -1,0 +1,77 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 3em;
+  width: 800px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: .5em .25em;
+  padding: .5em .25em;
+}
+.controls {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 0 3px #000;
+}
+#error {
+  display: none;
+  position: relative;
+
+}
+.searchform {
+  position: relative;
+}
+
+.null {
+  color: #ce1d24;
+  font-weight: bold;
+
+}
+.controls * {
+  display: inline;
+}
+
+.expomap {
+  max-width: 100%;
+  height: auto;
+}
+.booth.active {
+  fill: red;
+}
+.section.active {
+  fill: blue;
+}
+.zones.active {
+  fill: green;
+}
+
+.highlight {
+  border: #ce1d24 4px solid;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  padding: -5px;
+  display: none;
+  z-index: 9000;
+}
+
+.allsections, .allbooths {
+  border: #ce1d24 4px solid;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  padding: -5px;
+  display: none;
+  z-index: 1;
+}
+
+
