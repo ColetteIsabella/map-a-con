@@ -5,7 +5,7 @@
 $(document).ready(function() {
   $("#e10").select2({
 
-    exhibitors: [
+  var exhibitors = [
   { "boothNumber":"3342",
     "exhibitorName":"Comcast",
     "sectionNumber":"1",
@@ -440,6 +440,10 @@ $(document).ready(function() {
 ];
 });
 });
+
+function search() {
+  var
+}
 
 /*for (i=0; i<exhibitors.length; i++) {
   var newBox = document.createElement("div");
